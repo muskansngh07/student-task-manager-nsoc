@@ -49,6 +49,12 @@ a:focus-visible {
   color: #176b87;
 }
 
+.nav-links a:focus-visible {
+  color: #176b87;
+  outline: 2px solid #176b87;
+  outline-offset: 2px;
+  text-decoration: underline;
+}
 .container {
   width: min(640px, 88%);
   margin: 64px auto;
